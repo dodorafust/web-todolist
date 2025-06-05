@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Just do it!</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <div class="settings-icon">⚙️</div>
+    <h1 class="title">Just do it !</h1>
+
+    <div class="board">
+        <div class="column">
+            <div class="column-title">To Do</div>
+            <div class="column-content">
+                <div class="create-task" onclick="showForm(this)">+ create</div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="column-title">In Progress</div>
+            <div class="column-content">
+                <div class="create-task" onclick="showForm(this)">+ create</div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="column-title">Done</div>
+            <div class="column-content">
+                <div class="create-task" onclick="showForm(this)">+ create</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="todolist.js"></script>
+</body>
+</html>
