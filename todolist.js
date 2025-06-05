@@ -1,5 +1,3 @@
-// ✅ todolist.js đã nâng cấp: thêm phần ghi chú (note) cho task
-
 function showForm(button) {
     const columnContent = button.parentElement;
     if (columnContent.querySelector('.task-form')) return;
